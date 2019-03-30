@@ -8,8 +8,7 @@
 	}else{
 			header("location: index.php");
 	}
-?>
-<?php
+
 	// Get the data of the logged in user
 		include 'php/connection.php';
 		$get_data =  mysqli_query($db_con,"SELECT * FROM users where id ='$s_id' ");
